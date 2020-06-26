@@ -1,0 +1,10 @@
+{
+		"test1": {
+		"scope": "ruby",
+		"prefix": "test1",
+		"body": [
+			"puts ('$1');"
+		],
+		"description": "测试片段"
+	}
+}

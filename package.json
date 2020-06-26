@@ -23,14 +23,13 @@
   "author": "panxu",
   "license": "ISC",
   "categories": [
-    "Snippets",
-    "Other"
+    "Snippets"
   ],
   "contributes": {
     "snippets": [
       {
         "language": "ruby",
-        "path": "./snippets/ruby.json"
+        "path": "./snippets/test_vsc.json"
       }
     ]
   }
