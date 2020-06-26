@@ -11,7 +11,7 @@
     "fanuc picture"
   ],
   "activationEvents": [
-    "onLanguage:ruby"
+    "*"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
