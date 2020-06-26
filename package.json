@@ -2,18 +2,28 @@
   "name": "test_vsc",
   "version": "0.0.1",
   "description": "test publish",
+  "publisher": "TracyPan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BFMdeveloper/test_VSC.git"
+    "url": "git+https://github.com/BFMdeveloper/test_VSC1.git"
   },
   "author": "panxu",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BFMdeveloper/test_VSC/issues"
-  },
-  "homepage": "https://github.com/BFMdeveloper/test_VSC#readme"
+  "categories": [ 
+    "Snippets",
+    "Other"
+  ],
+  "contributes":{ 
+    "snippets": [
+      {
+        "language": "ruby", 
+        "path":"./snippets/ruby.json"
+      }
+    ]
+  }
+
 }
