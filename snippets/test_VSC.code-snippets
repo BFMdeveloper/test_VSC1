@@ -17,7 +17,7 @@
 	// }
 		"test1": {
 		"scope": "ruby",
-		"prefix": "test",
+		"prefix": "test1",
 		"body": [
 			"puts ('$1');",
 		],

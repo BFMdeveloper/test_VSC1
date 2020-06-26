@@ -1,9 +1,13 @@
 {
-  "name": "test_vsc",
+  "name": "test-vsc",
   "version": "0.0.1",
   "description": "test publish",
   "publisher": "TracyPan",
   "main": "index.js",
+  "engines": { 
+    "vscode": "^1.18.0"
+  },
+  "keywords": ["fanuc picture"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
