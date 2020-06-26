@@ -1,13 +1,15 @@
 {
   "name": "test-vsc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "test publish",
   "publisher": "TracyPan",
   "main": "index.js",
-  "engines": { 
+  "engines": {
     "vscode": "^1.18.0"
   },
-  "keywords": ["fanuc picture"],
+  "keywords": [
+    "fanuc picture"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,17 +19,16 @@
   },
   "author": "panxu",
   "license": "ISC",
-  "categories": [ 
+  "categories": [
     "Snippets",
     "Other"
   ],
-  "contributes":{ 
+  "contributes": {
     "snippets": [
       {
-        "language": "ruby", 
-        "path":"./snippets/ruby.json"
+        "language": "ruby",
+        "path": "./snippets/ruby.json"
       }
     ]
   }
-
 }
